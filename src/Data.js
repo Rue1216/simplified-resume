@@ -54,7 +54,7 @@ export const PetProjects =[
         name: "Deliciousss",
         imageSrc: deliciousssThumb,
         techs: "React.js, framer motion",
-        github: "#",
+        github: "https://github.com/Rue1216/deliciousss-recipe",
         demo: "https://deliciousss-recipe.herokuapp.com/",
     },
     {
@@ -62,7 +62,7 @@ export const PetProjects =[
         name: "Sweetaste*",
         imageSrc: sweetasteThumb,
         techs: "HTML, CSS, Bootstrap 5",
-        github: "#",
+        github: "https://github.com/Rue1216/sweetaste--practice",
         demo: "https://rue1216.github.io/sweetaste--practice/",
     },
     {
@@ -70,7 +70,7 @@ export const PetProjects =[
         name: "Ping-ping Fund-Raising",
         imageSrc: ping2Thumb,
         techs: "Bootstrap 5, JavaScript",
-        github: "#",
+        github: "https://github.com/Rue1216/bs5-fund-raising-website-pingping",
         demo: "https://rue1216.github.io/bs5-fund-raising-website-pingping/",
     },
     {
@@ -78,7 +78,7 @@ export const PetProjects =[
         name: "Pacman",
         imageSrc: pacmanThumb,
         techs: "Canvas, JavaScript",
-        github: "#",
+        github: "https://github.com/Rue1216/pacman-demo",
         demo: "https://gleaming-duckanoo-4b1c37.netlify.app/",
     },
 ]
