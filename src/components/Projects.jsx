@@ -29,6 +29,7 @@ function Projects() {
                             </div>
                             <motion.a
                                 whileTap={{scale: 1.5}}
+                                target="_blank"
                                 className='hover:text-orange-300' href={item.github}
                             >
                                 <AiOutlineGithub className='block w-6 h-6'/>
