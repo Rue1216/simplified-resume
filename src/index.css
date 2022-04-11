@@ -1,10 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* components */
+.wrapper{
+  @apply flex flex-col w-screen h-auto items-center justify-center relative bg-gray-700
+}
+.nav{
+  @apply bg-gray-600 text-gray-100 z-50 md:w-1/2 w-10/12 px-6 py-4 fixed top-4 rounded-lg flex items-center justify-between
+}
+.nav-link{
+  @apply hover:text-gray-300 transition duration-150 ease-in-out
+}
+.motion-hint{
+  @apply absolute bottom-16 text-center w-10/12 sm:w-1/2 md:w-1/4 px-4 py-2 text-gray-200 bg-gray-700 shadow-md shadow-gray-500 rounded-full text-sm
+}
+/* scrollbar */
+body::-webkit-scrollbar,
+html::-webkit-scrollbar{
+  display: none;
+}
+body,
+html{
+  scroll-behavior: smooth;
+}
+
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,regular,500,700,900);
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Jost", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.zh{
+  font-family: "Noto Sans TC",sans-serif;
+}
+h2{
+  @apply col-start-2 col-span-4 mb-4 text-4xl text-center text-gray-100 border-b pb-2 border-gray-400
 }
 
 code {
