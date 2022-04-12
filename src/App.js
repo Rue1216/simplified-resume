@@ -11,7 +11,6 @@ const SplineScene = React.lazy(()=>import("./components/Spline"));
 function App() {
 
   return (
-    <AnimatePresence initial={false}>
         <div className="wrapper">
           <Suspense
             fallback={
@@ -37,8 +36,6 @@ function App() {
             <Footer/>
           </Suspense>
         </div>
-    </AnimatePresence>
-    
   );
 }
 
