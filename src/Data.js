@@ -61,9 +61,9 @@ export const PetProjects =[
         id: 2,
         name: "Sweetaste*",
         imageSrc: sweetasteThumb,
-        techs: "HTML, CSS, Bootstrap 5",
-        github: "https://github.com/Rue1216/sweetaste--practice",
-        demo: "https://rue1216.github.io/sweetaste--practice/",
+        techs: "BS5, EJS, Express.js & Node.js",
+        github: "https://github.com/Rue1216/Sweetaste",
+        demo: "https://sweetaste-allyouwantishere.herokuapp.com/",
     },
     {
         id: 3,
